@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:myjobscentre_employee/applicants.dart';
 import 'package:myjobscentre_employee/applicantsdetails.dart';
+import 'package:myjobscentre_employee/createCompany.dart';
 import 'package:myjobscentre_employee/employer.dart';
+import 'package:myjobscentre_employee/job.dart';
 import 'package:myjobscentre_employee/jobPost.dart';
 import 'package:myjobscentre_employee/notselected.dart';
 import 'package:myjobscentre_employee/sidemenuEmployer.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       builder: () => MaterialApp(
         title: 'Flutter Demo',
-        initialRoute: JobPost.idScreen,
+        initialRoute: Job.idScreen,
         routes: {
           SidemenuEmployer.idScreen: (context) => SidemenuEmployer(),
           JobsWidget.idScreen: (context) => JobsWidget(
@@ -32,6 +34,8 @@ class MyApp extends StatelessWidget {
           NotSelected.idScreen: (context) => NotSelected(),
           ApplicantDetails.idScreen: (context) => ApplicantDetails(),
           Employer.idScreen: (context) => Employer(),
+          Job.idScreen: (context) => Job(),
+          CreateCompany.idScreen: (context) => CreateCompany(),
         },
       ),
       designSize: const Size(360, 690),
