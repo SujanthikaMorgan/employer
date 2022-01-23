@@ -8,6 +8,7 @@ import 'package:myjobscentre_employee/job.dart';
 import 'package:myjobscentre_employee/jobPost.dart';
 import 'package:myjobscentre_employee/notselected.dart';
 import 'package:myjobscentre_employee/sidemenuEmployer.dart';
+import 'package:myjobscentre_employee/widget/dropdownsearchwidget.dart';
 import 'package:myjobscentre_employee/widget/jobsWidget.dart';
 
 void main() {
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       builder: () => MaterialApp(
         title: 'Flutter Demo',
-        initialRoute: Job.idScreen,
+        initialRoute: DropDownSearchWidget.idScreen,
         routes: {
           SidemenuEmployer.idScreen: (context) => SidemenuEmployer(),
           JobsWidget.idScreen: (context) => JobsWidget(
@@ -36,6 +37,7 @@ class MyApp extends StatelessWidget {
           Employer.idScreen: (context) => Employer(),
           Job.idScreen: (context) => Job(),
           CreateCompany.idScreen: (context) => CreateCompany(),
+          DropDownSearchWidget.idScreen: (context) => DropDownSearchWidget(),
         },
       ),
       designSize: const Size(360, 690),
