@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:my_jobs_center/Screens/widget/basicmembership.dart';
-import 'package:my_jobs_center/Screens/widget/businessmembership.dart';
-import 'package:my_jobs_center/Screens/widget/professionalmembership.dart';
+
 import 'package:card_swiper/card_swiper.dart';
+import 'package:myjobscentre_employee/widget/basicmembership.dart';
+import 'package:myjobscentre_employee/widget/businessmembership.dart';
+import 'package:myjobscentre_employee/widget/professionalmembership.dart';
 
 class MembershipPage extends StatefulWidget {
   static const String idScreen = "Membership";

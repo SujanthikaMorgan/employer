@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:my_jobs_center/Screens/paymentpage.dart';
+
+
+import '../paymentpage.dart';
 
 class BasicMembership extends StatelessWidget {
   const BasicMembership({Key? key}) : super(key: key);

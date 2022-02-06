@@ -46,7 +46,6 @@ class _DropDownSearchWidgetState extends State<DropDownSearchWidget> {
           ),
         ],
       )
-
     );
   }
 }

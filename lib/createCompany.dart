@@ -88,7 +88,7 @@ class _CreateCompanyState extends State<CreateCompany> {
                           style: ElevatedButton.styleFrom(
                             side: BorderSide(
                                 width: 1.0, color: const Color(0xffdd312d)),
-                            elevation: 10.0,
+
                             primary: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.0),

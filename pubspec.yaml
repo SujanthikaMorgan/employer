@@ -33,6 +33,7 @@ dependencies:
   adobe_xd: ^2.0.0+1
   country_code_picker: ^2.0.2
   intl_phone_field: ^2.1.0
+  card_swiper: ^2.0.1
 
 
   # The following adds the Cupertino Icons font to your application.
